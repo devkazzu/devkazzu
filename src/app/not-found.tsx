@@ -1,0 +1,3 @@
+import Link from "next/link";
+import { Icon } from "@/components/icons";
+export default function NotFound() { return <main className="not-found" id="main-content" style={{ minHeight: "100dvh" }}><span className="eyebrow"><Icon name="flower" size={16}/> A LITTLE OFF THE BEATEN PATH</span><span className="not-found-number" aria-hidden="true">404</span><h1>This petal drifted away.</h1><p>The page you’re looking for might have moved, or perhaps it’s an idea still waiting to be built.</p><Link className="button primary" href="/">Find your way home<Icon name="right" size={16}/></Link><Link href="/projects" className="text-link" style={{ marginTop: 23 }}>Or discover something new<Icon name="arrow" size={14}/></Link></main>; }
